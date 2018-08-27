@@ -1,18 +1,32 @@
 {
   "name": "vue-xiti-smarttag",
   "version": "1.0.0",
-  "description": "A Vue.js plugin",
+  "description": "Xiti smarttag Vue.js implementation",
   "author": "Felipe Egas <felipe.egas.neris@hotmail.com>",
   "license": "MIT",
   "keywords": [
-    "vue plugin"
+    "vue plugin",
+    "at internet",
+    "xiti tags",
+    "xiti",
+    "tagging",
+    "smarttag",
+    "smarttag.js"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/felipeegasneris/vue-xiti-smarttag"
+  },
+  "bugs": {
+    "url": "https://github.com/felipeegasneris/xiti-smarttag-plugin/issues"
+  },
   "files": [
     "dist",
     "src",
     "LICENSE",
     "README.md"
   ],
+  "homepage": "https://github.com/felipeegasneris/xiti-smarttag-plugin",
   "main": "dist/vue-xiti-smarttag.js",
   "module": "components/index.js",
   "scripts": {
@@ -66,6 +80,6 @@
     "vue": "^2.4.4"
   },
   "dependencies": {
-    "xiti-smarttag-plugin": "^1.1.0"
+    "xiti-smarttag-plugin": "^1.1.1"
   }
 }
