@@ -80,6 +80,6 @@
     "vue": "^2.4.4"
   },
   "dependencies": {
-    "xiti-smarttag-plugin": "^1.1.1"
+    "xiti-smarttag-plugin": "^1.1.2"
   }
 }
