@@ -8,11 +8,21 @@ const plugin = {
     const st = new SmarttagPlugin(options.id);
 
     vm.prototype.$xitiSendPage = (info) => {
-      return st.sendPage(info);
+      try {
+        return st.sendPage(info);
+      } catch (e) {
+        return console.error('plugin not loaded');
+      }
+
     }
 
     vm.prototype.$xitiSendClick = (info) => {
-      return st.sendClick(info);
+      try {
+        return st.sendClick(info);
+      } catch (e) {
+        return console.error('plugin not loaded');
+      }
+
     }
   }
 }
