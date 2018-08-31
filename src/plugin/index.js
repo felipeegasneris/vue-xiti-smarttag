@@ -11,7 +11,7 @@ const plugin = {
       try {
         return st.sendPage(info);
       } catch (e) {
-        return console.error('plugin not loaded');
+        console.error('plugin not loaded');
       }
 
     }
@@ -20,7 +20,7 @@ const plugin = {
       try {
         return st.sendClick(info);
       } catch (e) {
-        return console.error('plugin not loaded');
+        console.error('plugin not loaded');
       }
 
     }
